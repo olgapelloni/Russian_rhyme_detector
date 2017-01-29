@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+from rhyme_detect import extract
+
+rhymes = extract.Rhymes()
+
+# uncomment if you are analyzing RNC files
+# rhymes.is_rnc = True
+
+# uncomment if you want to prevent conversion of е to ё
+# rhymes.creation_date = '1800'
+
+# one file
+rhymes.root_name = './test_folder/test.txt'
+
+# several files or folders in a folder
+# rhymes.root_name = 'C:\Users\Olga\Desktop\Bachelorarbeit\\test_folder'
+
+rhymes.analyse()
+

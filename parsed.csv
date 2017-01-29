@@ -1,0 +1,11 @@
+path,word1,word2,openness,exactness,richness,depth,assonance,dissonance,rhyming,position,meter1,meter2
+test.txt,мгнове`нье,виде`нье,open,exact,poor,-,-,-,crossed,female,,
+test.txt,ты`,красоты`,open,exact,rich,-,-,-,crossed,male,,
+test.txt,ты`,суеты`,open,exact,rich,-,-,-,-,male,,
+test.txt,красоты`,суеты`,open,exact,rich,-,-,-,crossed,male,,
+test.txt,красоты`,черты`,open,exact,rich,-,-,-,-,male,,
+test.txt,суеты`,черты`,open,exact,rich,-,-,-,crossed,male,,
+test2.txt,сифили`тика,ли`стика,open,exact,rich,-,-,-,crossed,dactyl,,
+test2.txt,слю`ни,ию`не,open,exact,poor,-,-,-,crossed,female,,
+test2.txt,кварта`л,рта`,-,exact,rich,-,-,-,crossed,male,,
+test2.txt,пари`к,кри`к,closed,exact,rich,-,-,-,crossed,male,,
