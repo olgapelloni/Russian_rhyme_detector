@@ -31,15 +31,15 @@ Python module for Russian rhyme detection
    If you analyze a folder with files, you should have them all written either before or after the year 1828 to get more accurate results.
    Some important rhymes would be missing if you would not do it.
    
-   E.g. the rhyme _безнаде\`жной - не\`жной_ from А.С. Пушкин. К *** («Я помню чудное мгновенье...») (1827) by default would not be recognized, because the transcription of _безнаде\`жной_ will be [б'ьзнад'о\`жнъj], as in modern pronunciation.
+   E.g. the rhyme _безнаде\`жной - не\`жной_ from А.С. Пушкин. К \*\*\* («Я помню чудное мгновенье...») (1827) by default would not be recognized, because the transcription of _безнаде\`жной_ will be [б'ьзнад'о\`жнъj], as in modern pronunciation.
    
    Read more about the е/ё issue [here](https://avonizos.github.io/e_vs_yo/) (in Russian).
 7. Run my_rd.py
-8. Results will be shown in the processed.csv file (rhymes and their classification)
+8. Results will be shown in the parsed.csv file (rhymes and their classification)
    
 ### Note:
 - The program does not take into account the stanzas' breaks. It is made so in order to be more flexible with the poems of complex structure. 
-Simply structured rhymes can be analyzed by filtering the processed.csv table by the column rhyming.
+Simply structured rhymes can be analyzed by filtering the parsed.csv table by the column rhyming.
 E.g. to get the correct rhymes from the Pushkin's example you may unable all the lines with - in the column rhyming.
 
 - This project continues my BA thesis:
