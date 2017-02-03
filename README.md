@@ -34,7 +34,7 @@ Python module for Russian rhyme detection
    E.g. the rhyme _безнаде\`жной - не\`жной_ from А.С. Пушкин. К \*\*\* («Я помню чудное мгновенье...») (1827) by default would not be recognized, because the transcription of _безнаде\`жной_ will be [б'ьзнад'о\`жнъj], as in modern pronunciation.
    
    Read more about the е/ё issue [here](https://avonizos.github.io/e_vs_yo/) (in Russian).
-7. Run my_rd.py
+7. Run my_rd.py (Python module [pymorphy2](http://pymorphy2.readthedocs.io/en/latest/) is required)
 8. Results will be shown in the parsed.csv file (rhymes and their classification)
    
 ### Note:
